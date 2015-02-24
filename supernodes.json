@@ -2,19 +2,19 @@
    "ac:c0:1d:ca:fe:01" : {
       "name" : "Supernode: aachen01",
       "vpn" : true
-   }
+   },
    "ac:c0:1d:ca:fe:02" : {
       "name" : "Supernode: aachen02",
       "vpn" : true
-   }
+   },
    "ac:c0:1d:ca:fe:03" : {
       "name" : "Supernode: aachen03",
       "vpn" : true
-   }
+   },
    "ac:c0:1d:ca:fe:04" : {
       "name" : "Supernode: aachen04",
       "vpn" : true
-   }
+   },
    "ac:c0:1d:ca:fe:07" : {
       "name" : "Supernode: aachen07",
       "vpn" : true
