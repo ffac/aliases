@@ -1,22 +1,77 @@
-{
-   "ac:c0:1d:ca:fe:01" : {
-      "name" : "Supernode: aachen01",
-      "vpn" : true
-   },
-   "ac:c0:1d:ca:fe:02" : {
-      "name" : "Supernode: aachen02",
-      "vpn" : true
-   },
-   "ac:c0:1d:ca:fe:03" : {
-      "name" : "Supernode: aachen03",
-      "vpn" : true
-   },
-   "ac:c0:1d:ca:fe:04" : {
-      "name" : "Supernode: aachen04",
-      "vpn" : true
-   },
-   "ac:c0:1d:ca:fe:07" : {
-      "name" : "Supernode: aachen07",
-      "vpn" : true
-   }
-}
+[
+  {
+    "node_id" : "acc01dcafe01",
+    "hostname": "Supernode: aachen01",
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "ac:c0:1d:ca:fe:01"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id" : "acc01dcafe02",
+    "hostname": "Supernode: aachen02",
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "ac:c0:1d:ca:fe:02"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id" : "acc01dcafe03",
+    "hostname": "Supernode: aachen03",
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "ac:c0:1d:ca:fe:03"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id" : "acc01dcafe04",
+    "hostname": "Supernode: aachen04",
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "ac:c0:1d:ca:fe:04"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id" : "acc01dcafe07",
+    "hostname": "Supernode: aachen07",
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "ac:c0:1d:ca:fe:07"
+            ]
+          }
+        }
+      }
+    }
+  }
+]
